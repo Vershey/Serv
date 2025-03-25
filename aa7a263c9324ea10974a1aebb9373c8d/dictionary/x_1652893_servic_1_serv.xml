@@ -2,11 +2,5 @@
     <element db_object_id="4675fe789364ea10974a1aebb9373c04" label="Serv" max_length="40" name="x_1652893_servic_1_serv" type="collection">
         <element default="Titus" label="FirstName" max_length="40" name="firstname" type="string"/>
         <element default="Barry" label="LastName" max_length="40" name="lastname" type="string"/>
-        <element choice="3" label="Gender" max_length="40" name="gender" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="Female" sequence="1" value="female"/>
-                <element inactive_on_update="false" label="Male" sequence="0" value="male"/>
-            </choice>
-        </element>
-    </element>
+ </element>
 </database>
