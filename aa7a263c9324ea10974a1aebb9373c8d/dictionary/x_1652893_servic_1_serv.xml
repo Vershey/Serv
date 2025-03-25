@@ -3,5 +3,6 @@
         <element default="Titus" label="FirstName" max_length="40" name="firstname" type="string"/>
         <element default="Barry" label="LastName" max_length="40" name="lastname" type="string"/>
         <element default="2000-02-04" label="Date of Birth" max_length="255" name="date_of_birth" type="date"/>
+         <element default="86 Parker Road Plainsboro" label="Line 1,Line 2" max_length="65536" name="line_1_line_2" type="html"/>
  </element>
 </database>
